@@ -14,7 +14,8 @@
                                             "^com.mitchellh.ghostty$",
                                             "^com\\.apple\\.Terminal$",
                                             "^com\\.googlecode\\.iterm2$",
-                                            "^org\\.gnu\\.Emacs$"
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^com\\.utmapp\\.UTM$"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -38,7 +39,8 @@
                                             "^com.mitchellh.ghostty$",
                                             "^com\\.apple\\.Terminal$",
                                             "^com\\.googlecode\\.iterm2$",
-                                            "^org\\.gnu\\.Emacs$"
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^com\\.utmapp\\.UTM$"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -69,12 +71,12 @@
                                 ],
                                 "from": {
                                     "key_code": "c",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
+                                    "modifiers": { "mandatory": ["left_control", "shift"] }
                                 },
                                 "to": [
                                     {
                                         "key_code": "c",
-                                        "modifiers": ["command"]
+                                        "modifiers": ["left_command"]
                                     }
                                 ],
                                 "type": "basic"
@@ -93,12 +95,12 @@
                                 ],
                                 "from": {
                                     "key_code": "v",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
+                                    "modifiers": { "mandatory": ["left_control", "shift"] }
                                 },
                                 "to": [
                                     {
                                         "key_code": "v",
-                                        "modifiers": ["command"]
+                                        "modifiers": ["left_command"]
                                     }
                                 ],
                                 "type": "basic"
