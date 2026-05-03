@@ -333,6 +333,19 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "non_us_pound",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "9",
+                                        "modifiers": ["right_option"]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
@@ -449,11 +462,11 @@
                         },
                         {
                             "from": { "key_code": "left_control" },
-                            "to": [{ "apple_vendor_top_case_key_code": "keyboard_fn" }]
+                            "to": [{ "key_code": "left_control" }]
                         },
                         {
                             "from": { "key_code": "left_option" },
-                            "to": [{ "key_code": "left_control" }]
+                            "to": [{ "apple_vendor_top_case_key_code": "keyboard_fn" }]
                         }
                     ]
                 }
